@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning TestNG" duration-ms="41299" started-at="2020-12-27T14:54:01Z" finished-at="2020-12-27T14:54:43Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="923" started-at="2020-12-27T14:54:01Z" finished-at="2020-12-27T14:54:02Z">
+      <class name="testCases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:testCases.BankManagerLoginTest@1b1cfb87]" name="loginAsBankManager" duration-ms="896" started-at="2020-12-27T14:54:01Z" finished-at="2020-12-27T14:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- testCases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="7224" started-at="2020-12-27T14:54:03Z" finished-at="2020-12-27T14:54:10Z">
+      <class name="testCases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AddCustomerTest@d23e042]" name="addCustomerTest" duration-ms="7194" started-at="2020-12-27T14:54:03Z" data-provider="dp" finished-at="2020-12-27T14:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Piyush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tamrakar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A1212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- testCases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test name="Open Account Test" duration-ms="6541" started-at="2020-12-27T14:54:10Z" finished-at="2020-12-27T14:54:17Z">
+      <class name="testCases.OpenAccountTest">
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.OpenAccountTest@51891008]" name="openAccountTest" duration-ms="6534" started-at="2020-12-27T14:54:10Z" data-provider="dp" finished-at="2020-12-27T14:54:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Piyush Tamrakar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+      </class> <!-- testCases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+    <test name="Customer Login Test" duration-ms="3537" started-at="2020-12-27T14:54:17Z" finished-at="2020-12-27T14:54:20Z">
+      <class name="testCases.CustomerLoginTest">
+        <test-method status="PASS" signature="customerLoginTest(java.lang.String)[pri:0, instance:testCases.CustomerLoginTest@41330d4f]" name="customerLoginTest" duration-ms="3533" started-at="2020-12-27T14:54:17Z" data-provider="dp" finished-at="2020-12-27T14:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Piyush Tamrakar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLoginTest -->
+      </class> <!-- testCases.CustomerLoginTest -->
+    </test> <!-- Customer Login Test -->
+    <test name="Deposit Test" duration-ms="6550" started-at="2020-12-27T14:54:20Z" finished-at="2020-12-27T14:54:27Z">
+      <class name="testCases.DepositTest">
+        <test-method status="PASS" signature="depositTest(java.lang.String)[pri:0, instance:testCases.DepositTest@465232e9]" name="depositTest" duration-ms="6534" started-at="2020-12-27T14:54:20Z" data-provider="dp" finished-at="2020-12-27T14:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+      </class> <!-- testCases.DepositTest -->
+    </test> <!-- Deposit Test -->
+    <test name="Withdrawl Test" duration-ms="6411" started-at="2020-12-27T14:54:27Z" finished-at="2020-12-27T14:54:33Z">
+      <class name="testCases.WithdrawlTest">
+        <test-method status="PASS" signature="withdrawlTest(java.lang.String)[pri:0, instance:testCases.WithdrawlTest@1f9f6368]" name="withdrawlTest" duration-ms="6407" started-at="2020-12-27T14:54:27Z" data-provider="dp" finished-at="2020-12-27T14:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawlTest -->
+      </class> <!-- testCases.WithdrawlTest -->
+    </test> <!-- Withdrawl Test -->
+    <test name="Customers Test" duration-ms="9436" started-at="2020-12-27T14:54:33Z" finished-at="2020-12-27T14:54:43Z">
+      <class name="testCases.CustomersTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.CustomersTest@f58853c]" name="setup" is-config="true" duration-ms="11273" started-at="2020-12-27T14:53:50Z" finished-at="2020-12-27T14:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="customersTest(java.lang.String)[pri:0, instance:testCases.CustomersTest@f58853c]" name="customersTest" duration-ms="2761" started-at="2020-12-27T14:54:33Z" data-provider="dp" finished-at="2020-12-27T14:54:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Piyush]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customersTest -->
+        <test-method status="PASS" signature="customersTest(java.lang.String)[pri:0, instance:testCases.CustomersTest@f58853c]" name="customersTest" duration-ms="2210" started-at="2020-12-27T14:54:36Z" data-provider="dp" finished-at="2020-12-27T14:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customersTest -->
+        <test-method status="PASS" signature="customersTest(java.lang.String)[pri:0, instance:testCases.CustomersTest@f58853c]" name="customersTest" duration-ms="2207" started-at="2020-12-27T14:54:38Z" data-provider="dp" finished-at="2020-12-27T14:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ron ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customersTest -->
+        <test-method status="PASS" signature="customersTest(java.lang.String)[pri:0, instance:testCases.CustomersTest@f58853c]" name="customersTest" duration-ms="2246" started-at="2020-12-27T14:54:40Z" data-provider="dp" finished-at="2020-12-27T14:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hermoine ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.CustomersTest@f58853c]" name="tearDown" is-config="true" duration-ms="720" started-at="2020-12-27T14:54:43Z" finished-at="2020-12-27T14:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CustomersTest -->
+    </test> <!-- Customers Test -->
+  </suite> <!-- Learning TestNG -->
+</testng-results>

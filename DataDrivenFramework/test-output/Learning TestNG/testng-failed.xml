@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning TestNG]">
+  <listeners>
+    <listener class-name="extentListeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Customers Test(failed)">
+    <classes>
+      <class name="testCases.CustomersTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="customersTest" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- testCases.CustomersTest -->
+    </classes>
+  </test> <!-- Customers Test(failed) -->
+</suite> <!-- Failed suite [Learning TestNG] -->

@@ -1,0 +1,46 @@
+INFO    2020-12-27 20:25:38,607 [main] base.BaseTest  - Test Execution Started !!!
+INFO    2020-12-27 20:25:38,609 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2020-12-27 20:25:38,609 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2020-12-27 20:25:42,995 [main] base.BaseTest  - Chrome Browser launched !!!
+INFO    2020-12-27 20:25:44,878 [main] base.BaseTest  - Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2020-12-27 20:25:47,031 [main] base.BaseTest  - DataBase Connection Established !!!
+INFO    2020-12-27 20:25:47,128 [main] base.BaseTest  - Clicking on an element: bmlBtn_CSS
+INFO    2020-12-27 20:25:47,566 [main] base.BaseTest  - Checking the element presence for : addCustomer_CSS
+INFO    2020-12-27 20:25:48,009 [main] base.BaseTest  - Clicking on an element: addCustomer_CSS
+INFO    2020-12-27 20:25:48,284 [main] base.BaseTest  - Typing of an element: firstName_CSS entered type value as: Piyush
+INFO    2020-12-27 20:25:48,407 [main] base.BaseTest  - Typing of an element: lastName_CSS entered type value as: Tamrakar
+INFO    2020-12-27 20:25:48,488 [main] base.BaseTest  - Typing of an element: postCode_CSS entered type value as: A1212
+INFO    2020-12-27 20:25:48,553 [main] base.BaseTest  - Clicking on an element: addCustBtn_CSS
+INFO    2020-12-27 20:25:54,773 [main] base.BaseTest  - Clicking on an element: openAccountBtn_CSS
+INFO    2020-12-27 20:25:55,083 [main] base.BaseTest  - Selecting from dropdown : customer_CSS value as Piyush Tamrakar
+INFO    2020-12-27 20:25:55,157 [main] base.BaseTest  - Selecting from dropdown : currency_CSS value as Rupee
+INFO    2020-12-27 20:25:55,205 [main] base.BaseTest  - Clicking on an element: processBtn_CSS
+INFO    2020-12-27 20:26:01,360 [main] base.BaseTest  - Clicking on an element: home_CSS
+INFO    2020-12-27 20:26:01,405 [main] base.BaseTest  - Clicking on an element: customerLoginBtn_CSS
+INFO    2020-12-27 20:26:01,765 [main] base.BaseTest  - Selecting from dropdown : yourName_CSS value as Piyush Tamrakar
+INFO    2020-12-27 20:26:01,809 [main] base.BaseTest  - Clicking on an element: loginbtn_CSS
+INFO    2020-12-27 20:26:04,934 [main] base.BaseTest  - Clicking on an element: deposit_CSS
+INFO    2020-12-27 20:26:05,224 [main] base.BaseTest  - Typing of an element: amount_CSS entered type value as: 1000.0
+INFO    2020-12-27 20:26:05,267 [main] base.BaseTest  - Clicking on an element: depositBtn_CSS
+INFO    2020-12-27 20:26:11,466 [main] base.BaseTest  - Clicking on an element: withdrawl_CSS
+INFO    2020-12-27 20:26:12,529 [main] base.BaseTest  - Typing of an element: withdrawnAmount_CSS entered type value as: 500.0
+INFO    2020-12-27 20:26:13,630 [main] base.BaseTest  - Clicking on an element: withdrawnBtn_CSS
+INFO    2020-12-27 20:26:14,724 [main] base.BaseTest  - Clicking on an element: home_CSS
+INFO    2020-12-27 20:26:14,769 [main] base.BaseTest  - Clicking on an element: bmlBtn_CSS
+INFO    2020-12-27 20:26:17,870 [main] base.BaseTest  - Clicking on an element: customersBtn_CSS
+INFO    2020-12-27 20:26:18,263 [main] base.BaseTest  - Typing of an element: searchCust_CSS entered type value as: Piyush
+INFO    2020-12-27 20:26:18,318 [main] base.BaseTest  - Clicking on an element: deleteCust_CSS
+INFO    2020-12-27 20:26:20,404 [main] base.BaseTest  - Clear all of an element: cusList_CSS
+INFO    2020-12-27 20:26:20,433 [main] base.BaseTest  - Clicking on an element: customersBtn_CSS
+INFO    2020-12-27 20:26:20,476 [main] base.BaseTest  - Typing of an element: searchCust_CSS entered type value as: Harry 
+INFO    2020-12-27 20:26:20,516 [main] base.BaseTest  - Clicking on an element: deleteCust_CSS
+INFO    2020-12-27 20:26:22,611 [main] base.BaseTest  - Clear all of an element: cusList_CSS
+INFO    2020-12-27 20:26:22,641 [main] base.BaseTest  - Clicking on an element: customersBtn_CSS
+INFO    2020-12-27 20:26:22,686 [main] base.BaseTest  - Typing of an element: searchCust_CSS entered type value as: Ron 
+INFO    2020-12-27 20:26:22,729 [main] base.BaseTest  - Clicking on an element: deleteCust_CSS
+INFO    2020-12-27 20:26:24,830 [main] base.BaseTest  - Clear all of an element: cusList_CSS
+INFO    2020-12-27 20:26:24,863 [main] base.BaseTest  - Clicking on an element: customersBtn_CSS
+INFO    2020-12-27 20:26:24,915 [main] base.BaseTest  - Typing of an element: searchCust_CSS entered type value as: Hermoine 
+INFO    2020-12-27 20:26:24,962 [main] base.BaseTest  - Clicking on an element: deleteCust_CSS
+INFO    2020-12-27 20:26:27,015 [main] base.BaseTest  - Clear all of an element: cusList_CSS
+INFO    2020-12-27 20:26:27,797 [main] base.BaseTest  - Test execution completed!!
